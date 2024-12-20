@@ -2,15 +2,15 @@
 import { connect } from 'cloudflare:sockets';
 //伪装主页设置
 let token= 'error';
-let pdomain = 'www.pptv.com';
+let pdomain = 'agprtm.my.id';
 //uuid设置
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = '1f46a785-47a1-459a-9c0e-09732b7624c7';
 //订阅器设置
 let RproxyIP = 'false';
 let sub = 'alvless.comorg.us.kg';
 let subconfig = 'https://raw.githubusercontent.com/JustLagom/WorkerSub/main/urltestconfig.ini';
 //CF网络穿透设置 一:proxyip，二:SOCKS5
-let proxyIP = 'edgetunnel.anycast.eu.org';
+let proxyIP = '104.248.145.216';
 let socks5Address = '';
 
 if (!isValidUUID(userID)) {
